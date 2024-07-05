@@ -21,20 +21,6 @@ body{
     margin: auto;
   }
 
-.header_img{
-    position: absolute;
-    /* margin: 40px 0 0 84px; */
-}
-
-.header_img > img{
-    position: relative;
-    left: 84px;
-    top: 40px;
-    width: 31.09px;
-    height: 48px;
-    animation: rotacion var(--time);
-}
-
 @keyframes rotacion {
     0%{
         left:-40px;
